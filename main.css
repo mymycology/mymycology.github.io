@@ -1307,6 +1307,36 @@ b {
 		height: 260px;
 	}
 
+	/* timelime left */
+  	#timelinesmall::after {
+    		left: 31px;
+  	}
+
+	/* full-width container */
+  	#timelinesmall div.big {
+    		width: 100%;
+    		padding-left: 70px;
+    		padding-right: 25px;
+  	}
+
+	/* arrows left */
+  	#timelinesmall div.big::before {
+    		left: 60px;
+    		border: medium solid white;
+    		border-width: 10px 10px 10px 0;
+    		border-color: transparent white transparent transparent;
+  	}
+
+	/* Make sure all circles are at the same spot */
+  	#timelinesmall div.big:nth-child(odd)::after, #timelinesmall div.big:nth-child(even)::after {
+    		left: 15px;
+  	}
+
+	/* Make all right containers behave like the left ones */
+  	#timelinesmall div.big:nth-child(even) {
+    		left: 0%;
+	}
+
 }
 	
 @media screen and (max-width: 400px) {
