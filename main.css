@@ -369,8 +369,8 @@ b {
   		z-index: 1;
   		transform-origin: 5px 0px;
   		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
+              		    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              		    opacity 0.55s ease;
 	}
 
 	#menuToggle span:first-child {
@@ -399,7 +399,7 @@ b {
 	#menu {
   		position: absolute;
   		width: 180px;
-  		height: 400px;
+  		height: 350px;
   		box-shadow: 0 0 10px #85888C;
   		margin: -50px 0 0 -50px;
   		padding: 50px;
@@ -464,18 +464,6 @@ b {
 		left: 5%;
 	}
 	
-	nav ul li a {
-		background-color: none;
-	}
-
-	nav ul li a:hover {
-  		background-color: none;
-	}
-	
-	nav ul li.current a {
-		background-color: none;
-	}
-	
 	h2 {
 		font-size: 1.4em;
 	}
@@ -528,18 +516,6 @@ b {
 	
 	body {
 		width: 100%;
-	}
-
-	nav ul li a {
-		background-color: none;
-	}
-
-	nav ul li a:hover {
-  		background-color: none;
-	}
-	
-	nav ul li.current a {
-		background-color: none;
 	}
 	
 	#banner h2 {
