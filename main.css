@@ -921,7 +921,7 @@ b {
 	margin-bottom: 2%;
 }
 
-#terms .box .content {
+#terms .box .boxcontent {
 	float: right;
 	width: 57%;
 	margin-right: 2.5%;
@@ -1089,15 +1089,27 @@ b {
 
 @media screen and (max-width: 1280px) {
 
-	#headerone #banner {
+	#headertwo #banner {
 		height: 280px;
+	}
+
+	.table li {
+		width: 190px;
+		padding: 80px 5px;
+		margin-right: 30px;
+		border-radius: 50%;
+		font-size: 1.3em;
+	}
+
+	.table li:first-of-type {
+		margin-left: 30px;
 	}
 
 }
 
 @media screen and (max-width: 980px) {
 	
-	#headerone #banner {
+	#headertwo #banner {
 		height: 270px;
 	}
 
@@ -1105,15 +1117,41 @@ b {
 
 @media screen and (max-width: 736px) {
 
-	#headerone #banner {
+	#headertwo #banner {
 		height: 260px;
+	}
+	
+	.table {
+		padding: 30px 0 10px;
+	}
+	
+	.table li {
+		width: 140px;
+		padding: 55px 5px;
+		margin-right: 8px;
+		border-radius: 50%;
+		font-size: 1.1em;
+	}
+
+	.table li:first-of-type {
+		margin-left: 8px;
 	}
 
 }
 	
 @media screen and (max-width: 400px) {
 
-	
+	.table li {
+		width: 125px;
+		padding: 35px 5px;
+		margin-right: 5px;
+		border-radius: 50%;
+		font-size: 1.1em;
+	}
+
+	.table li:first-of-type {
+		margin-left: 5px;
+	}
 
 }
 
@@ -1259,7 +1297,7 @@ b {
 
 @media screen and (max-width: 1280px) {
 
-	#headerone #banner {
+	#headerthree #banner {
 		height: 280px;
 	}
 
@@ -1267,7 +1305,7 @@ b {
 
 @media screen and (max-width: 980px) {
 	
-	#headerone #banner {
+	#headerthree #banner {
 		height: 270px;
 	}
 
@@ -1276,7 +1314,7 @@ b {
 
 @media screen and (max-width: 736px) {
 
-	#headerone #banner {
+	#headerthree #banner {
 		height: 260px;
 	}
 
@@ -1379,7 +1417,7 @@ b {
 
 @media screen and (max-width: 1280px) {
 
-	#headerone #banner {
+	#headerfour #banner {
 		height: 280px;
 	}
 
@@ -1387,7 +1425,7 @@ b {
 
 @media screen and (max-width: 980px) {
 	
-	#headerone #banner {
+	#headerfour #banner {
 		height: 270px;
 	}
 
@@ -1396,7 +1434,7 @@ b {
 
 @media screen and (max-width: 736px) {
 
-	#headerone #banner {
+	#headerfour #banner {
 		height: 260px;
 	}
 
@@ -1475,7 +1513,7 @@ b {
 
 @media screen and (max-width: 1280px) {
 
-	#headerone #banner {
+	#headerfive #banner {
 		height: 280px;
 	}
 
@@ -1483,7 +1521,7 @@ b {
 
 @media screen and (max-width: 980px) {
 	
-	#headerone #banner {
+	#headerfive #banner {
 		height: 270px;
 	}
 
@@ -1492,7 +1530,7 @@ b {
 
 @media screen and (max-width: 736px) {
 
-	#headerone #banner {
+	#headerfive #banner {
 		height: 260px;
 	}
 
