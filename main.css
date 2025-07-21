@@ -1327,12 +1327,12 @@ b {
     		border-color: transparent white transparent transparent;
   	}
 
-	/* Make sure all circles are at the same spot */
+	/* circles */
   	#timelinesmall div.big:nth-child(odd)::after, #timelinesmall div.big:nth-child(even)::after {
     		left: 15px;
   	}
 
-	/* Make all right containers behave like the left ones */
+	/* right containers behave like left */
   	#timelinesmall div.big:nth-child(even) {
     		left: 0%;
 	}
