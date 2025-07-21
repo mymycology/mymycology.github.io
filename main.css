@@ -1185,18 +1185,18 @@ b {
 	border-radius: 10px;
 }
 
-#timelinesmall * {
+.timeline * {
   box-sizing: border-box;
 }
 
 /* Vertical line */
-#timelinesmall {
+.timeline {
   position: relative;
   width: 95%;
   margin: 0 auto;
 }
 
-#timelinesmall::after {
+.timeline::after {
   content: '';
   position: absolute;
   width: 6px;
@@ -1208,7 +1208,7 @@ b {
 }
 
 /* Container */
-#timelinesmall div.big {
+.container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
@@ -1216,7 +1216,7 @@ b {
 }
 
 /* Circles */
-#timelinesmall div.big::after {
+.container::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -1230,17 +1230,17 @@ b {
 }
 
 /* Left boxes */
-#timelinesmall div.big:nth-child(odd) {
+.left {
   left: 0;
 }
 
 /* Right boxes */
-#timelinesmall div.big:nth-child(even) {
+.right {
   left: 50%;
 }
 
 /* Left arrows */
-#timelinesmall div.big:nth-child(odd)::before {
+.left::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -1254,7 +1254,7 @@ b {
 }
 
 /* Right arrows */
-#timelinesmall div.big:nth-child(even)::before {
+.right::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -1268,19 +1268,19 @@ b {
 }
 
 /* Circle fix */
-#timelinesmall div.big:nth-child(even)::after {
+.right::after {
   left: -16px;
 }
 
 /* Content */
-#timelinesmall div.small {
+.content {
   padding: 20px 30px;
   background-color: white;
   position: relative;
   border-radius: 6px;
 }
 
-#timelinesmall h3 {
+.timeline h3 {
 	color: #007A76;
 }
 
@@ -1307,35 +1307,34 @@ b {
 		height: 260px;
 	}
 
-	/* timelime left */
-  	#timelinesmall::after {
+	.timeline::after {
     		left: 31px;
   	}
 
-	/* full-width container */
-  	#timelinesmall div.big {
+	/* Full-width containers */
+  	.container {
     		width: 100%;
     		padding-left: 70px;
     		padding-right: 25px;
   	}
 
-	/* arrows left */
-  	#timelinesmall div.big::before {
+	/* Make sure that all arrows are pointing leftwards */
+  	.container::before {
     		left: 60px;
     		border: medium solid white;
     		border-width: 10px 10px 10px 0;
-    		border-color: transparent blue transparent transparent;
+    		border-color: transparent white transparent transparent;
   	}
 
-	/* circles */
-  	#timelinesmall div.big:nth-child(odd)::after, #timelinesmall div.big:nth-child(even)::after {
-    		left: 15px;
+	/* Make sure all circles are at the same spot */
+  	.left::after, .right::after {
+		left: 15px;
   	}
 
-	/* right containers behave like left */
-  	#timelinesmall div.big:nth-child(even) {
+	/* Make all right containers behave like the left ones */
+  	.right {
     		left: 0%;
-	}
+  	}
 
 }
 	
