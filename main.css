@@ -43,37 +43,6 @@ input {
 	display: none;
 }
 
-nav li {
-	display: inline-block;
-	padding: 10px;
-	font-size: 1.1em;
-}
-
-nav ul li a {
-	color: #ff8b49;
-	text-decoration: none;
-	margin: 7px;
-	padding: 5px 8px;
-}
-
-nav ul li a:hover {
-	background-color: #FAE8DD;
-	color: #ff8b49;
-	padding: 5px 8px;
-	border-radius: 5px;
-	-moz-transition: background-color .2s ease-in-out;
-	-webkit-transition: background-color .2s ease-in-out;
-	-ms-transition: background-color .2s ease-in-out;
-	transition: background-color .2s ease-in-out;
-}
-
-nav ul li.current a {
-	background-color: #ff8b49;
-	color: white;
-	padding: 5px 8px;
-	border-radius: 5px;
-}
-
 h2 {
 	font-size: 2em;
 }
@@ -251,6 +220,41 @@ b {
 	font-weight: bold;
 }
 
+@media screen and (min-width: 980px) {
+
+	nav li {
+	display: inline-block;
+	padding: 10px;
+	font-size: 1.1em;
+	}
+
+	nav ul li a {
+		color: #ff8b49;
+		text-decoration: none;
+		margin: 7px;
+		padding: 5px 8px;
+	}
+
+	nav ul li a:hover {
+		background-color: #FAE8DD;
+		color: #ff8b49;
+		padding: 5px 8px;
+		border-radius: 5px;
+		-moz-transition: background-color .2s ease-in-out;
+		-webkit-transition: background-color .2s ease-in-out;
+		-ms-transition: background-color .2s ease-in-out;
+		transition: background-color .2s ease-in-out;
+	}
+
+	nav ul li.current a {
+		background-color: #ff8b49;
+		color: white;
+		padding: 5px 8px;
+		border-radius: 5px;
+	}
+	
+}
+
 @media screen and (max-width: 1280px) {
 	
 	h1 {
@@ -326,7 +330,6 @@ b {
 	nav ul li a {
   		text-decoration: none;
   		color: white;
-  		background-color: none;
   		opacity: 1;
   		font-size: 1.5em;
   		transition: 200ms;
@@ -334,13 +337,8 @@ b {
 	
 	nav ul li a:hover {
   		opacity: 0.5;
-  		background-color: none;
 	}
 	
-	nav ul li.current a {
-		background-color: none;
-	}
-
 	#menuToggle {
   		display: flex;
   		flex-direction: column;
