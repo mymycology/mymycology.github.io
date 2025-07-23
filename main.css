@@ -1340,6 +1340,7 @@ b {
 		width: 200px;
 		padding: 70px 0 70px;
 		margin-top: 15px;
+		font-size: 1.1em;
 	}
 	
 	.table a:nth-of-type(odd) {
