@@ -1336,17 +1336,17 @@ b {
 @media screen and (max-width: 400px) {
 
 	.table li {
-		width: 220px;
-		padding: 80px 0 80px;
+		width: 200px;
+		padding: 70px 0 70px;
 		margin-top: 15px;
 	}
 	
 	.table a:nth-of-type(odd) {
-		margin-left: 5%;
+		margin-left: 4%;
 	}
 
 	.table a:nth-of-type(even) {
-		margin-right: 5%;
+		margin-right: 4%;
 	}
 
 }
