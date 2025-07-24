@@ -1067,8 +1067,7 @@ b {
 #typesgallery {
 	display: flex;
 	flex-flow: row wrap;
-    	justify-content: center;
-	font-size: 0em;
+    	justify-content: space-between;
 }
 
 #typesgallery figure {
@@ -1076,6 +1075,7 @@ b {
 	height: 320px;
 	background-color: #FFE3BB;
 	border-radius: 10px;
+	margin-right: 20px;
 }
 
 #typesgallery img {
