@@ -1707,12 +1707,17 @@ b {
 		height: 260px;
 	}
 	
+	#media {
+		display: flex;
+		flex-flow: row wrap;
+    		justify-content: center;
+	}
+	
 	#media figure {
 		width: 85%;
 		display: block;
 		height: fit-content;
-		font-size: .8em;
-		text-align: center;
+		font-size: .8;
 	}
 	
 	#media figure img {
@@ -1720,14 +1725,13 @@ b {
 		width: 100%;
 		float: none;
 		display: block;
-		margin: 5% 0 0 0;
+		margin: 3% 0 0 0;
 	}
 
 	#media figcaption {
-		width: 90%;
-		display: block;
+		width: 95%;
 		float: none;
-		margin: 0 0 0 0;
+		margin: 20px auto;
 	}
 	
 	#media figure:nth-of-type(odd) {
