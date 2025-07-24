@@ -1733,6 +1733,7 @@ b {
 		display: block;
 		float: none;
 		margin: 15px 15px 0;
+		text-align: center;
 	}
 	
 	#media figure:nth-of-type(odd) {
