@@ -1862,20 +1862,13 @@ b {
 	}
 
 	.panel {
-  		padding: 10px 20px 0 0;
+  		padding: 10px 30px 0 0;
+		margin-left: -15px;
 	}
 	
 	#resources li {
 		font-size: .75em;
 		line-height: 1.5em;
-	}
-
-}
-	
-@media screen and (max-width: 430px) {
-
-	.panel {
-  		margin-left: -10px;
 	}
 
 }
