@@ -1708,8 +1708,8 @@ b {
 	}
 	
 	#media {
-		display: grid;
-		place-items: center;
+		display: flex;
+		justify-content: center;
 	}
 	
 	#media figure {
