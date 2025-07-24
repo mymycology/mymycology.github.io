@@ -1066,30 +1066,31 @@ b {
 
 #typesgallery {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	flex-flow: row wrap;
+    	justify-content: center;
 }
 
 #typesgallery figure {
-	width: 35%;
-	height: fit-content;
+	width: 250px;
+	height: 320px;
 	background-color: #FFE3BB;
 	border-radius: 10px;
 }
 
 #typesgallery img {
-	width: 95%;
+	width: 200px;
+	height: 200px;
 	object-fit: cover;
-	margin-top: 2%;
-	margin-left: 2%;
+	margin-top: 20px;
+	margin-left: 25px;
 }
 
 #typesgallery figcaption {
-	width: 95%;
+	width: 200px;
 	text-align: center;
 	color: black;
 	font-size: .8em;
-	padding-top: 2%;
+	padding-top: 10px;
 	margin: auto;
 }
 
