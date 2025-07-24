@@ -1708,9 +1708,8 @@ b {
 	}
 	
 	#media {
-		display: flex;
-		justify-content: center;
-		flex-flow: row wrap;
+		display: grid;
+		place-items: center;
 	}
 	
 	#media figure {
@@ -1720,7 +1719,22 @@ b {
 		font-size: .8;
 		text-align: center;
 	}
+	
+	#media figure img {
+		object-fit: contain;
+		width: 100%;
+		float: none;
+		display: block;
+		margin: 3% 0 0 0;
+	}
 
+	#media figcaption {
+		width: 95%;
+		display: block;
+		float: none;
+		margin: 3%;
+	}
+	
 	#media figure:nth-of-type(odd) {
 		float: none;
 		margin: 20px auto;
@@ -1729,22 +1743,6 @@ b {
 	#media figure:nth-of-type(even) {
 		float: none;
 		margin: 20px auto;
-	}
-	
-	#media figure img {
-		object-fit: contain;
-		width: 100%;
-		float: none;
-		display: block;
-		margin: 20px 0 0 0;
-	}
-
-	#media figcaption {
-		width: 100%;
-		display: block;
-		float: none;
-		padding: 15px;
-		margin: 4% 4% 4% 4%;
 	}
 	
 	#media h2:not(h2:first-of-type) {
