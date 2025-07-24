@@ -1708,8 +1708,9 @@ b {
 	}
 	
 	#media {
-		display: grid;
-		place-items: center;
+		display: flex;
+		flex-flow: row wrap;
+    		justify-content: center;
 	}
 	
 	#media figure {
