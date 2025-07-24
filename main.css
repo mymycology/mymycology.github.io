@@ -1071,26 +1071,25 @@ b {
 }
 
 #typesgallery figure {
-	width: 250px;
-	height: 320px;
+	width: 35%;
+	height: fit-content;
 	background-color: #FFE3BB;
 	border-radius: 10px;
 }
 
 #typesgallery img {
-	width: 200px;
-	height: 200px;
+	width: 95%;
 	object-fit: cover;
-	margin-top: 20px;
-	margin-left: 25px;
+	margin-top: 2%;
+	margin-left: 2%;
 }
 
 #typesgallery figcaption {
-	width: 200px;
+	width: 95%;
 	text-align: center;
 	color: black;
 	font-size: .8em;
-	padding-top: 10px;
+	padding-top: 2%;
 	margin: auto;
 }
 
