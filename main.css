@@ -1799,7 +1799,7 @@ b {
   	background-color: white;
   	display: none;
   	overflow: hidden;
-  	padding: 10px 50px 0 0;
+  	padding: 10px 40px 0 0;
   	max-height: 0;
   	transition: 1s ease-out;
 }
@@ -1860,6 +1860,10 @@ b {
 	.button {
 		font-size: .9em;
 	}
+
+	.panel {
+  		padding: 10px 20px 0 0;
+	}
 	
 	#resources li {
 		font-size: .75em;
@@ -1871,7 +1875,7 @@ b {
 @media screen and (max-width: 430px) {
 
 	.panel {
-  		padding: 0;
+  		padding: 10px 20px -20px 0;
 	}
 
 }
