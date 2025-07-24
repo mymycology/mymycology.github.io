@@ -1740,6 +1740,7 @@ b {
 
 	#media figcaption {
 		width: 100%;
+		display: block;
 		float: none;
 		padding: 15px;
 		margin: 4% 4% 4% 4%;
