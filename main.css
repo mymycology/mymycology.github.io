@@ -461,7 +461,7 @@ b {
 	
 	#banner h2 {
 		font-size: 1.15em;
-		top: 95px;
+		top: 100px;
 		max-width: 85%;
 	}
 
@@ -524,6 +524,7 @@ b {
 	
 	#banner h2 {
 		font-size: 1.05em;
+		top: 95px;
 	}
 	
 	#sources li {
