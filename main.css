@@ -1317,18 +1317,14 @@ b {
 	#typesgallery img {
 		width: 100px;
 		height: 100px;
-		object-fit: cover;
 		margin-top: 10px;
 		margin-left: 10px;
 	}
 
 	#typesgallery figcaption {
 		width: 100px;
-		text-align: center;
-		color: black;
 		font-size: .7em;
 		padding-top: 7px;
-		margin: auto;
 	}
 
 }
@@ -1348,6 +1344,24 @@ b {
 
 	.table a:nth-of-type(even) {
 		margin-right: 4%;
+	}
+
+	#typesgallery figure {
+		width: 200px;
+		height: 290px;
+	}
+
+	#typesgallery img {
+		width: 180px;
+		height: 180px;
+		margin-top: 15px;
+		margin-left: 15px;
+	}
+
+	#typesgallery figcaption {
+		width: 180px;
+		font-size: .85em;
+		padding-top: 10px;
 	}
 
 }
