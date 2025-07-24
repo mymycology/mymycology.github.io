@@ -1369,7 +1369,7 @@ b {
 
 	#typesgallery figure {
 		width: 200px;
-		height: 290px;
+		height: 280px;
 	}
 
 	#typesgallery img {
@@ -1870,6 +1870,8 @@ b {
 	
 @media screen and (max-width: 430px) {
 
-	
+	.panel {
+  		padding: 0;
+	}
 
 }
