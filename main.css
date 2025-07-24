@@ -1710,6 +1710,7 @@ b {
 	#media {
 		display: flex;
 		justify-content: center;
+		flex-flow: row wrap;
 	}
 	
 	#media figure {
