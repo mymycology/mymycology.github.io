@@ -1707,12 +1707,6 @@ b {
 		height: 260px;
 	}
 	
-	#media {
-		display: flex;
-		flex-flow: row wrap;
-    		justify-content: center;
-	}
-	
 	#media figure {
 		width: 85%;
 		display: block;
