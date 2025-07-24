@@ -1718,6 +1718,7 @@ b {
 		display: block;
 		height: fit-content;
 		font-size: .8em;
+		text-align: center;
 	}
 	
 	#media figure img {
@@ -1729,11 +1730,10 @@ b {
 	}
 
 	#media figcaption {
-		width: 95%;
+		width: 90%;
 		display: block;
 		float: none;
-		margin: 15px 15px 15px 0;
-		text-align: center;
+		margin: 0 0 0 0;
 	}
 	
 	#media figure:nth-of-type(odd) {
