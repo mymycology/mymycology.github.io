@@ -1297,6 +1297,10 @@ b {
   		margin: auto;
   		padding-bottom: 30px;
 	}
+
+	.prev, .next {
+  		top: 40%;
+	}
 	
 	.mySlides img {
 		width: 350px;
@@ -1358,8 +1362,8 @@ b {
 	}
 	
 	.text {
-  		font-size: .75em;
-  		padding: 7px 9px;
+  		font-size: .7em;
+  		padding: 7px;
   		bottom: 15px;
 	}
 
