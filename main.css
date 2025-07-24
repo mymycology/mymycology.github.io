@@ -1611,8 +1611,6 @@ b {
 
 /* 4. Media */
 
-@media screen and (min-width: 1280px) {
-
 #headerfour #banner {
 	background: url(images/landscapefive.jpg) no-repeat;
 	background-size: cover;
@@ -1670,8 +1668,6 @@ b {
 	margin-bottom: 60px;
 }
 
-}
-
 @media screen and (max-width: 1280px) {
 
 	#headerfour #banner {
@@ -1722,7 +1718,6 @@ b {
 		display: block;
 		height: fit-content;
 		font-size: .8em;
-		text-align: center;
 	}
 	
 	#media figure img {
