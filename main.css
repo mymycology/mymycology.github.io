@@ -1066,8 +1066,9 @@ b {
 
 #typesgallery {
 	display: flex;
-	flex-flow: row wrap;
-    	justify-content: space-between;
+	flex-wrap: wrap;
+    	justify-content: center;
+	gap: 20px;
 }
 
 #typesgallery figure {
