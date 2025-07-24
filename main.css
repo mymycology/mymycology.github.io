@@ -1324,7 +1324,7 @@ b {
 	#typesgallery figcaption {
 		width: 100px;
 		font-size: .7em;
-		padding-top: 7px;
+		padding-top: 10px;
 	}
 
 }
@@ -1344,6 +1344,23 @@ b {
 
 	.table a:nth-of-type(even) {
 		margin-right: 4%;
+	}
+
+	.slideshow-container {
+  		width: 300px;
+  		margin: auto;
+  		padding-bottom: 30px;
+	}
+	
+	.mySlides img {
+		width: 300px;
+		height: 300px;
+	}
+	
+	.text {
+  		font-size: .75em;
+  		padding: 7px 9px;
+  		bottom: 15px;
 	}
 
 	#typesgallery figure {
